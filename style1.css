@@ -1,0 +1,51 @@
+/*
+Nome : Alexandre Carneiro Santos
+R.A : 21142724-5
+*/
+body{
+    background-color: #fffafa;
+    justify-content: center;
+    align-items: center;  
+}
+p{
+    text-align: center;
+}
+.resposta{
+    background-color: rgb(102, 102, 223);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 30vh;
+    width: 200vh;
+    text-align: center;
+}
+h1#resp {
+    color: #fffafa;
+}
+h3#respCaixas{
+    color: #fffafa;
+}
+
+div.senhas{
+    margin:end ;
+    text-align: center;
+    height: 30vh;
+    width: 70vh;
+    justify-content: center;
+    background-color: rgb(213, 213, 230);
+
+}
+#texto1{
+    text-align:left;
+}
+#texto2{
+    text-align:left;
+}
+div.caixas{
+    margin: left;
+    background-color: rgb(213, 213, 230);
+    text-align: center;
+    height: 30vh;
+    width: 70vh;
+    justify-content: center;
+}

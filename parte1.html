@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js">script.js</script>
+    <!--
+     Nome : Alexandre Carneiro Santos
+     R.A : 21142724-5
+    -->
+    
+</head>
+<body>
+        <p> Loja Ficticial S.A.<p>
+   <div class="resposta" >
+        <br>
+          <h1 id='resp'></h1>
+     <br>
+          <h3 id="respCaixas"></h3>
+   </div>
+
+   <div class="senhas">
+        <h2>Para clientes:</h2>
+        <p id="texto1">escolha o seu tipo de atendimento</p>
+        <input type="button" value="comum" id="password" onclick="retiraSenha('comum')">
+        <input type="button" value="rapido" id="rapido" onclick="retiraSenha('rapido')">
+        <input type="button" value="prioritario" id="prioritario" onclick="retiraSenha('prioritario')">
+        <p id="texto2">Sua senha é:  </p>
+        
+   </div>
+
+   <div class="caixas">
+        <h3>Para caixas:</h3>
+        <p>clique em um caixa para chamar uma senha.</p>
+        <input type="button" value="caixa 1" onclick="chamaCliente(1)">
+        <input type="button" value="caixa 2" onclick="chamaCliente(2)">
+        <input type="button" value="caixa 3" onclick="chamaCliente(3)">
+        <input type="button" value="caixa 4" onclick="chamaCliente(4)">
+   </div>
+</body>
+</html>
